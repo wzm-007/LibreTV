@@ -33,7 +33,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
-        <meta name="referrer" content="no-referrer" />
         {/* 首屏前同步主题，避免亮暗闪烁 */}
         <script
           dangerouslySetInnerHTML={{
